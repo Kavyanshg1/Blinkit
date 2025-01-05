@@ -1,6 +1,6 @@
-export const DisplayPriceInRupees = (price)=>{
-    return new Intl.NumberFormat('en-IN',{
-        style : 'currency',
-        currency : 'INR'
+export const DisplayPriceInRupees = (price) => {
+    return new Intl.NumberFormat('en-AE', {
+        style: 'currency',
+        currency: 'AED'
     }).format(price)
 }
